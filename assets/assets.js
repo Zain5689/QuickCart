@@ -130,6 +130,12 @@ export const HomeIcon = () => (
   </svg>
 );
 
+export const ProductsIcon = () => (
+  <svg className="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 4h4v4H4V4Zm0 6h4v4H4v-4Zm0 6h4v4H4v-4ZM10 4h10v4H10V4Zm0 6h10v4H10v-4Zm0 6h10v4H10v-4Z" />
+  </svg>
+);
+
 export const productsDummyData = [
   {
     "_id": "67a1f4e43f34a77b6dde9144",
